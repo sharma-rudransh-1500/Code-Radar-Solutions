@@ -10,8 +10,10 @@ int main() {
         printf("%d",a-b);
     }else if (ch=='*'){
         printf("%d",a*b);
-    }else {
+    }else if (ch=='/'){
         printf("%d",a/b)
+    }else{"
+        printf("invalid input")
     }
     return 0;
 }
