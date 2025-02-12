@@ -2,7 +2,8 @@
 
 int main()
 {
-    int y;
+    int n;
+    scanf("%d",&n);
     if ((n%4)==0)
     {
         if ((n%100)==0)
