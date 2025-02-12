@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
     char a;
-    scanf("%d",&a);
+    scanf("%c",&a);
     char v[]={"aeiouAEIOU"};
     char d[]={"1234567890"};
     char c[]={"qwrtypsdfghjklzxcvbnm"};
-    if (a in v)
+    if (strchr(v,a))
     printf("Vowel");
-    else if (a in d)
+    else if (d,a)
     printf("Digit");
-    else if (a in c);
+    else if (c,a)
     printf("Consonant");
     else 
     printf("Special Character");
