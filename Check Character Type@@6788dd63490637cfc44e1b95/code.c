@@ -10,9 +10,9 @@ int main()
     char c[]={"qwrtypsdfghjklzxcvbnm"};
     if (strchr(v,a))
     printf("Vowel");
-    else if (d,a)
+    else if (strchr(d,a))
     printf("Digit");
-    else if (c,a)
+    else if (strchr(c,a))
     printf("Consonant");
     else 
     printf("Special Character");
